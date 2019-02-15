@@ -1,4 +1,21 @@
 
+
+function beep(){
+
+var osc = new Tone.Oscillator(440, "sine").toMaster().start();
+
+setTimeout(function(){
+
+//var osc = new Tone.Oscillator(440, "sine").toMaster().stop();
+
+osc.stop();
+
+ }, 50);
+
+
+}
+
+
 function angulo_absoluto(a,amp) {
 	
 return a+amp/2;	
