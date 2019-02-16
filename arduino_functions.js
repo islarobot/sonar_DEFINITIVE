@@ -79,7 +79,6 @@ if (angle_int<0) {
 }
 
 
-
 var angle_int_abs = Math.abs(angle_int);
 
 var angle_out = zeroFill(angle_int_abs,3);

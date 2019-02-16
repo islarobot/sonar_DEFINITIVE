@@ -85,6 +85,7 @@ sp.on("data", function(data) {
 ipc.of.world.on('connect',function(){console.log('ipc client connected');});
 ipc.of.world.on('message',function(data){
 
+//console.log(data);
 
 var data_out = arduino_functions.funcion_conversion_node_ardu(data);
 
